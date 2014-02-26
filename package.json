@@ -1,0 +1,41 @@
+{
+  "name": "muso",
+  "description": "Tiny Library for easy use of keys, scales, chords. etc",
+  "version": "0.0.1",
+  "homepage": "https://github.com/AndyGriff/muso",
+  "author": {
+    "name": "Andy Griffiths",
+    "email": "andy@rosebraetechnology.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndyGriff/muso"
+  },
+  "bugs": {
+    "url": "https://github.com/AndyGriff/muso/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/AndyGriff/muso/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/muso",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
+    "underscore": "~1.4.4"
+  },
+
+  "keywords": []
+}
